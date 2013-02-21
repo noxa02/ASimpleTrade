@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBDFF01716D6343100EEB510 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDFF01616D6343100EEB510 /* More.png */; };
 		BBF5CEC116D6117100C0BDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC016D6117100C0BDB7 /* UIKit.framework */; };
 		BBF5CEC316D6117100C0BDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC216D6117100C0BDB7 /* Foundation.framework */; };
 		BBF5CEC516D6117100C0BDB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC416D6117100C0BDB7 /* CoreGraphics.framework */; };
@@ -23,9 +24,37 @@
 		BBF5CEE416D6117100C0BDB7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEE316D6117100C0BDB7 /* SecondViewController.m */; };
 		BBF5CEE616D6117100C0BDB7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CEE516D6117100C0BDB7 /* second.png */; };
 		BBF5CEE816D6117100C0BDB7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CEE716D6117100C0BDB7 /* second@2x.png */; };
+		BBF5CEFF16D612A100C0BDB7 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEF116D612A100C0BDB7 /* NSObject+SBJSON.m */; };
+		BBF5CF0016D612A100C0BDB7 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEF316D612A100C0BDB7 /* NSString+SBJSON.m */; };
+		BBF5CF0116D612A100C0BDB7 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEF516D612A100C0BDB7 /* SBJSON.m */; };
+		BBF5CF0216D612A100C0BDB7 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEF716D612A100C0BDB7 /* SBJsonBase.m */; };
+		BBF5CF0316D612A100C0BDB7 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEF916D612A100C0BDB7 /* SBJsonParser.m */; };
+		BBF5CF0416D612A100C0BDB7 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEFB16D612A100C0BDB7 /* SBJsonWriter.m */; };
+		BBF5CF0516D612A100C0BDB7 /* myJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEFE16D612A100C0BDB7 /* myJson.m */; };
+		BBF5CF0816D615CD00C0BDB7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF0716D615CC00C0BDB7 /* ContactViewController.m */; };
+		BBF5CF0B16D6180200C0BDB7 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0A16D6180200C0BDB7 /* contact.png */; };
+		BBF5CF0D16D618CB00C0BDB7 /* announcements.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0C16D618CB00C0BDB7 /* announcements.png */; };
+		BBF5CF0F16D6191C00C0BDB7 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0E16D6191C00C0BDB7 /* preferences.png */; };
+		BBF5CF1216D61B7600C0BDB7 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1016D61B7600C0BDB7 /* button_back.png */; };
+		BBF5CF1316D61B7600C0BDB7 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1116D61B7600C0BDB7 /* button_normal.png */; };
+		BBF5CF1616D61B9300C0BDB7 /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1416D61B9300C0BDB7 /* navbar_bg.png */; };
+		BBF5CF1716D61B9300C0BDB7 /* navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1516D61B9300C0BDB7 /* navbar_bg@2x.png */; };
+		BBF5CF1916D61EC300C0BDB7 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1816D61EC300C0BDB7 /* mail.png */; };
+		BBF5CF1B16D6245D00C0BDB7 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1A16D6245D00C0BDB7 /* email.png */; };
+		BBF5CF1D16D624A900C0BDB7 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1C16D624A900C0BDB7 /* id-card.png */; };
+		BBF5CF1F16D624B400C0BDB7 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1E16D624B400C0BDB7 /* man.png */; };
+		BBF5CF2116D6252800C0BDB7 /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF2016D6252800C0BDB7 /* text-list.png */; };
+		BBF5CF2316D625B000C0BDB7 /* man-figure.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF2216D625B000C0BDB7 /* man-figure.png */; };
+		BBF5CF2516D625F500C0BDB7 /* contact2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF2416D625F500C0BDB7 /* contact2.png */; };
+		BBF5CF2716D6268600C0BDB7 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF2616D6268600C0BDB7 /* search.png */; };
+		BBF5CF2D16D6274900C0BDB7 /* ProfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF2C16D6274900C0BDB7 /* ProfilViewController.m */; };
+		BBF5CF3016D6296100C0BDB7 /* ObjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF2F16D6296100C0BDB7 /* ObjectsViewController.m */; };
+		BBF5CF3316D6297400C0BDB7 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF3216D6297400C0BDB7 /* ServicesViewController.m */; };
+		BBF5CF3916D62AE900C0BDB7 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF3816D62AE800C0BDB7 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BBDFF01616D6343100EEB510 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
 		BBF5CEBD16D6117100C0BDB7 /* ASimpleTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASimpleTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF5CEC016D6117100C0BDB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBF5CEC216D6117100C0BDB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +77,46 @@
 		BBF5CEE316D6117100C0BDB7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		BBF5CEE516D6117100C0BDB7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		BBF5CEE716D6117100C0BDB7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BBF5CEEF16D612A100C0BDB7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		BBF5CEF016D612A100C0BDB7 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		BBF5CEF116D612A100C0BDB7 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		BBF5CEF216D612A100C0BDB7 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		BBF5CEF316D612A100C0BDB7 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		BBF5CEF416D612A100C0BDB7 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		BBF5CEF516D612A100C0BDB7 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		BBF5CEF616D612A100C0BDB7 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		BBF5CEF716D612A100C0BDB7 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		BBF5CEF816D612A100C0BDB7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		BBF5CEF916D612A100C0BDB7 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		BBF5CEFA16D612A100C0BDB7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		BBF5CEFB16D612A100C0BDB7 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		BBF5CEFD16D612A100C0BDB7 /* myJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myJson.h; sourceTree = "<group>"; };
+		BBF5CEFE16D612A100C0BDB7 /* myJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myJson.m; sourceTree = "<group>"; };
+		BBF5CF0616D615CC00C0BDB7 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		BBF5CF0716D615CC00C0BDB7 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		BBF5CF0A16D6180200C0BDB7 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		BBF5CF0C16D618CB00C0BDB7 /* announcements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = announcements.png; sourceTree = "<group>"; };
+		BBF5CF0E16D6191C00C0BDB7 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
+		BBF5CF1016D61B7600C0BDB7 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		BBF5CF1116D61B7600C0BDB7 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
+		BBF5CF1416D61B9300C0BDB7 /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
+		BBF5CF1516D61B9300C0BDB7 /* navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg@2x.png"; sourceTree = "<group>"; };
+		BBF5CF1816D61EC300C0BDB7 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		BBF5CF1A16D6245D00C0BDB7 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		BBF5CF1C16D624A900C0BDB7 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card.png"; sourceTree = "<group>"; };
+		BBF5CF1E16D624B400C0BDB7 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		BBF5CF2016D6252800C0BDB7 /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
+		BBF5CF2216D625B000C0BDB7 /* man-figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-figure.png"; sourceTree = "<group>"; };
+		BBF5CF2416D625F500C0BDB7 /* contact2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact2.png; sourceTree = "<group>"; };
+		BBF5CF2616D6268600C0BDB7 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		BBF5CF2B16D6274800C0BDB7 /* ProfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilViewController.h; sourceTree = "<group>"; };
+		BBF5CF2C16D6274900C0BDB7 /* ProfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilViewController.m; sourceTree = "<group>"; };
+		BBF5CF2E16D6296000C0BDB7 /* ObjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectsViewController.h; sourceTree = "<group>"; };
+		BBF5CF2F16D6296100C0BDB7 /* ObjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectsViewController.m; sourceTree = "<group>"; };
+		BBF5CF3116D6297300C0BDB7 /* ServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		BBF5CF3216D6297400C0BDB7 /* ServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		BBF5CF3716D62AE800C0BDB7 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		BBF5CF3816D62AE800C0BDB7 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +163,22 @@
 		BBF5CEC616D6117100C0BDB7 /* ASimpleTrade */ = {
 			isa = PBXGroup;
 			children = (
+				BBF5CF0916D6175600C0BDB7 /* Ressources */,
+				BBF5CEEE16D612A100C0BDB7 /* JSON */,
+				BBF5CEFC16D612A100C0BDB7 /* JSON-Url */,
 				BBF5CECF16D6117100C0BDB7 /* AppDelegate.h */,
 				BBF5CED016D6117100C0BDB7 /* AppDelegate.m */,
 				BBF5CED816D6117100C0BDB7 /* MainStoryboard.storyboard */,
+				BBF5CF3116D6297300C0BDB7 /* ServicesViewController.h */,
+				BBF5CF3216D6297400C0BDB7 /* ServicesViewController.m */,
+				BBF5CF2E16D6296000C0BDB7 /* ObjectsViewController.h */,
+				BBF5CF2F16D6296100C0BDB7 /* ObjectsViewController.m */,
+				BBF5CF2B16D6274800C0BDB7 /* ProfilViewController.h */,
+				BBF5CF2C16D6274900C0BDB7 /* ProfilViewController.m */,
+				BBF5CF3716D62AE800C0BDB7 /* SearchViewController.h */,
+				BBF5CF3816D62AE800C0BDB7 /* SearchViewController.m */,
+				BBF5CF0616D615CC00C0BDB7 /* ContactViewController.h */,
+				BBF5CF0716D615CC00C0BDB7 /* ContactViewController.m */,
 				BBF5CEDB16D6117100C0BDB7 /* FirstViewController.h */,
 				BBF5CEDC16D6117100C0BDB7 /* FirstViewController.m */,
 				BBF5CEDE16D6117100C0BDB7 /* first.png */,
@@ -122,6 +204,58 @@
 				BBF5CED616D6117100C0BDB7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBF5CEEE16D612A100C0BDB7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5CEEF16D612A100C0BDB7 /* JSON.h */,
+				BBF5CEF016D612A100C0BDB7 /* NSObject+SBJSON.h */,
+				BBF5CEF116D612A100C0BDB7 /* NSObject+SBJSON.m */,
+				BBF5CEF216D612A100C0BDB7 /* NSString+SBJSON.h */,
+				BBF5CEF316D612A100C0BDB7 /* NSString+SBJSON.m */,
+				BBF5CEF416D612A100C0BDB7 /* SBJSON.h */,
+				BBF5CEF516D612A100C0BDB7 /* SBJSON.m */,
+				BBF5CEF616D612A100C0BDB7 /* SBJsonBase.h */,
+				BBF5CEF716D612A100C0BDB7 /* SBJsonBase.m */,
+				BBF5CEF816D612A100C0BDB7 /* SBJsonParser.h */,
+				BBF5CEF916D612A100C0BDB7 /* SBJsonParser.m */,
+				BBF5CEFA16D612A100C0BDB7 /* SBJsonWriter.h */,
+				BBF5CEFB16D612A100C0BDB7 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		BBF5CEFC16D612A100C0BDB7 /* JSON-Url */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5CEFD16D612A100C0BDB7 /* myJson.h */,
+				BBF5CEFE16D612A100C0BDB7 /* myJson.m */,
+			);
+			path = "JSON-Url";
+			sourceTree = "<group>";
+		};
+		BBF5CF0916D6175600C0BDB7 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5CF1016D61B7600C0BDB7 /* button_back.png */,
+				BBF5CF1816D61EC300C0BDB7 /* mail.png */,
+				BBF5CF1116D61B7600C0BDB7 /* button_normal.png */,
+				BBF5CF2216D625B000C0BDB7 /* man-figure.png */,
+				BBF5CF2016D6252800C0BDB7 /* text-list.png */,
+				BBF5CF1C16D624A900C0BDB7 /* id-card.png */,
+				BBF5CF1A16D6245D00C0BDB7 /* email.png */,
+				BBF5CF2416D625F500C0BDB7 /* contact2.png */,
+				BBDFF01616D6343100EEB510 /* More.png */,
+				BBF5CF2616D6268600C0BDB7 /* search.png */,
+				BBF5CF0E16D6191C00C0BDB7 /* preferences.png */,
+				BBF5CF1416D61B9300C0BDB7 /* navbar_bg.png */,
+				BBF5CF1516D61B9300C0BDB7 /* navbar_bg@2x.png */,
+				BBF5CF1E16D624B400C0BDB7 /* man.png */,
+				BBF5CF0C16D618CB00C0BDB7 /* announcements.png */,
+				BBF5CF0A16D6180200C0BDB7 /* contact.png */,
+			);
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +318,22 @@
 				BBF5CEE116D6117100C0BDB7 /* first@2x.png in Resources */,
 				BBF5CEE616D6117100C0BDB7 /* second.png in Resources */,
 				BBF5CEE816D6117100C0BDB7 /* second@2x.png in Resources */,
+				BBF5CF0B16D6180200C0BDB7 /* contact.png in Resources */,
+				BBF5CF0D16D618CB00C0BDB7 /* announcements.png in Resources */,
+				BBF5CF0F16D6191C00C0BDB7 /* preferences.png in Resources */,
+				BBF5CF1216D61B7600C0BDB7 /* button_back.png in Resources */,
+				BBF5CF1316D61B7600C0BDB7 /* button_normal.png in Resources */,
+				BBF5CF1616D61B9300C0BDB7 /* navbar_bg.png in Resources */,
+				BBF5CF1716D61B9300C0BDB7 /* navbar_bg@2x.png in Resources */,
+				BBF5CF1916D61EC300C0BDB7 /* mail.png in Resources */,
+				BBF5CF1B16D6245D00C0BDB7 /* email.png in Resources */,
+				BBF5CF1D16D624A900C0BDB7 /* id-card.png in Resources */,
+				BBF5CF1F16D624B400C0BDB7 /* man.png in Resources */,
+				BBF5CF2116D6252800C0BDB7 /* text-list.png in Resources */,
+				BBF5CF2316D625B000C0BDB7 /* man-figure.png in Resources */,
+				BBF5CF2516D625F500C0BDB7 /* contact2.png in Resources */,
+				BBF5CF2716D6268600C0BDB7 /* search.png in Resources */,
+				BBDFF01716D6343100EEB510 /* More.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +348,18 @@
 				BBF5CED116D6117100C0BDB7 /* AppDelegate.m in Sources */,
 				BBF5CEDD16D6117100C0BDB7 /* FirstViewController.m in Sources */,
 				BBF5CEE416D6117100C0BDB7 /* SecondViewController.m in Sources */,
+				BBF5CEFF16D612A100C0BDB7 /* NSObject+SBJSON.m in Sources */,
+				BBF5CF0016D612A100C0BDB7 /* NSString+SBJSON.m in Sources */,
+				BBF5CF0116D612A100C0BDB7 /* SBJSON.m in Sources */,
+				BBF5CF0216D612A100C0BDB7 /* SBJsonBase.m in Sources */,
+				BBF5CF0316D612A100C0BDB7 /* SBJsonParser.m in Sources */,
+				BBF5CF0416D612A100C0BDB7 /* SBJsonWriter.m in Sources */,
+				BBF5CF0516D612A100C0BDB7 /* myJson.m in Sources */,
+				BBF5CF0816D615CD00C0BDB7 /* ContactViewController.m in Sources */,
+				BBF5CF2D16D6274900C0BDB7 /* ProfilViewController.m in Sources */,
+				BBF5CF3016D6296100C0BDB7 /* ObjectsViewController.m in Sources */,
+				BBF5CF3316D6297400C0BDB7 /* ServicesViewController.m in Sources */,
+				BBF5CF3916D62AE900C0BDB7 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +482,7 @@
 				BBF5CEED16D6117100C0BDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
