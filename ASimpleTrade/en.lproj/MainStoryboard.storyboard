@@ -23,7 +23,7 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V4q-em-s01">
                                 <items>
                                     <navigationItem title="Title" id="3T2-VP-yIN">
-                                        <barButtonItem key="leftBarButtonItem" title="Retour" id="vLR-21-uF6"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="vLR-21-uF6"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -366,29 +366,6 @@
         <image name="search.png" width="30" height="30"/>
         <image name="text-list.png" width="30" height="30"/>
     </resources>
-    <classes>
-        <class className="ContactViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactViewController.h"/>
-        </class>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ObjectsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ObjectsViewController.h"/>
-        </class>
-        <class className="ProfilViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfilViewController.h"/>
-        </class>
-        <class className="SearchViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchViewController.h"/>
-        </class>
-        <class className="ServicesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ServicesViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

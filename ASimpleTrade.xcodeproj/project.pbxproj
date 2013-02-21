@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BBDFF01716D6343100EEB510 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDFF01616D6343100EEB510 /* More.png */; };
+		BBE851D916D68403001E16E4 /* navbar_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE851D816D68403001E16E4 /* navbar_dark.png */; };
+		BBE851DB16D68461001E16E4 /* btn_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE851DA16D68461001E16E4 /* btn_dark.png */; };
+		BBE851DD16D685C1001E16E4 /* btn_dark2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE851DC16D685C1001E16E4 /* btn_dark2.png */; };
 		BBF5CEC116D6117100C0BDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC016D6117100C0BDB7 /* UIKit.framework */; };
 		BBF5CEC316D6117100C0BDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC216D6117100C0BDB7 /* Foundation.framework */; };
 		BBF5CEC516D6117100C0BDB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5CEC416D6117100C0BDB7 /* CoreGraphics.framework */; };
@@ -33,7 +36,6 @@
 		BBF5CF0516D612A100C0BDB7 /* myJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CEFE16D612A100C0BDB7 /* myJson.m */; };
 		BBF5CF0816D615CD00C0BDB7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5CF0716D615CC00C0BDB7 /* ContactViewController.m */; };
 		BBF5CF0B16D6180200C0BDB7 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0A16D6180200C0BDB7 /* contact.png */; };
-		BBF5CF0D16D618CB00C0BDB7 /* announcements.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0C16D618CB00C0BDB7 /* announcements.png */; };
 		BBF5CF0F16D6191C00C0BDB7 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF0E16D6191C00C0BDB7 /* preferences.png */; };
 		BBF5CF1216D61B7600C0BDB7 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1016D61B7600C0BDB7 /* button_back.png */; };
 		BBF5CF1316D61B7600C0BDB7 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5CF1116D61B7600C0BDB7 /* button_normal.png */; };
@@ -55,6 +57,10 @@
 
 /* Begin PBXFileReference section */
 		BBDFF01616D6343100EEB510 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		BBE851D716D683A0001E16E4 /* navbar_dark3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = navbar_dark3; sourceTree = "<group>"; };
+		BBE851D816D68403001E16E4 /* navbar_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_dark.png; sourceTree = "<group>"; };
+		BBE851DA16D68461001E16E4 /* btn_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dark.png; sourceTree = "<group>"; };
+		BBE851DC16D685C1001E16E4 /* btn_dark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dark2.png; sourceTree = "<group>"; };
 		BBF5CEBD16D6117100C0BDB7 /* ASimpleTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASimpleTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF5CEC016D6117100C0BDB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBF5CEC216D6117100C0BDB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,7 +101,6 @@
 		BBF5CF0616D615CC00C0BDB7 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		BBF5CF0716D615CC00C0BDB7 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		BBF5CF0A16D6180200C0BDB7 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
-		BBF5CF0C16D618CB00C0BDB7 /* announcements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = announcements.png; sourceTree = "<group>"; };
 		BBF5CF0E16D6191C00C0BDB7 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
 		BBF5CF1016D61B7600C0BDB7 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
 		BBF5CF1116D61B7600C0BDB7 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
@@ -248,11 +253,14 @@
 				BBF5CF2416D625F500C0BDB7 /* contact2.png */,
 				BBDFF01616D6343100EEB510 /* More.png */,
 				BBF5CF2616D6268600C0BDB7 /* search.png */,
+				BBE851DC16D685C1001E16E4 /* btn_dark2.png */,
 				BBF5CF0E16D6191C00C0BDB7 /* preferences.png */,
+				BBE851DA16D68461001E16E4 /* btn_dark.png */,
+				BBE851D716D683A0001E16E4 /* navbar_dark3 */,
 				BBF5CF1416D61B9300C0BDB7 /* navbar_bg.png */,
+				BBE851D816D68403001E16E4 /* navbar_dark.png */,
 				BBF5CF1516D61B9300C0BDB7 /* navbar_bg@2x.png */,
 				BBF5CF1E16D624B400C0BDB7 /* man.png */,
-				BBF5CF0C16D618CB00C0BDB7 /* announcements.png */,
 				BBF5CF0A16D6180200C0BDB7 /* contact.png */,
 			);
 			name = Ressources;
@@ -319,7 +327,6 @@
 				BBF5CEE616D6117100C0BDB7 /* second.png in Resources */,
 				BBF5CEE816D6117100C0BDB7 /* second@2x.png in Resources */,
 				BBF5CF0B16D6180200C0BDB7 /* contact.png in Resources */,
-				BBF5CF0D16D618CB00C0BDB7 /* announcements.png in Resources */,
 				BBF5CF0F16D6191C00C0BDB7 /* preferences.png in Resources */,
 				BBF5CF1216D61B7600C0BDB7 /* button_back.png in Resources */,
 				BBF5CF1316D61B7600C0BDB7 /* button_normal.png in Resources */,
@@ -334,6 +341,9 @@
 				BBF5CF2516D625F500C0BDB7 /* contact2.png in Resources */,
 				BBF5CF2716D6268600C0BDB7 /* search.png in Resources */,
 				BBDFF01716D6343100EEB510 /* More.png in Resources */,
+				BBE851D916D68403001E16E4 /* navbar_dark.png in Resources */,
+				BBE851DB16D68461001E16E4 /* btn_dark.png in Resources */,
+				BBE851DD16D685C1001E16E4 /* btn_dark2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
